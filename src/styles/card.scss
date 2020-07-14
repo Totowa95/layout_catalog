@@ -19,7 +19,7 @@
     padding: 16px 5px 0;
     height: 150px;
     width: 170px;
-    transition: 1s;
+    transition: transform 1s;
     &:hover {
       transform: scale(1.2);
     }
@@ -81,7 +81,7 @@
     border: 1px solid $mainColor;
     border-radius: 5px;
     text-align: center;
-    transition: background 1s, color 1s;
+    transition: background-color 1s, color 1s;
 
     &-text {
       text-decoration: none;
