@@ -81,7 +81,7 @@
     border: 1px solid $mainColor;
     border-radius: 5px;
     text-align: center;
-    transition: 1s;
+    transition: background 1s, color 1s;
 
     &-text {
       text-decoration: none;
@@ -91,7 +91,6 @@
       line-height: 40px;
       text-transform: uppercase;
       color: #fff;
-      transition: 1s;
 
       &:hover {
         color: $mainColor;
