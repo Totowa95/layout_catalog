@@ -19,6 +19,10 @@
     padding: 16px 5px 0;
     height: 150px;
     width: 170px;
+    transition: transform 1s;
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   &__description {
@@ -77,6 +81,7 @@
     border: 1px solid $mainColor;
     border-radius: 5px;
     text-align: center;
+    transition: background-color 1s, color 1s;
 
     &-text {
       text-decoration: none;
