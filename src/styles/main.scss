@@ -15,7 +15,7 @@ html {
 .container {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  column-gap: 48px;
+  column-gap: $catalogColumnGap;
   width: $catalogContainerWidth;
   margin: 0 auto;
 }
