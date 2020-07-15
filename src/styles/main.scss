@@ -14,7 +14,7 @@ html {
 
 .container {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat($quantityCardInLine, auto);
   column-gap: $catalogColumnGap;
   width: $catalogContainerWidth;
   margin: 0 auto;
