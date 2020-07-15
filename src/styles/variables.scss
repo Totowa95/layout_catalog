@@ -1,4 +1,9 @@
 $mainColor: #00acdc;
 $topSpaceBetweenCards: 51px;
-$cardWidth: 200px;
+$catalogCardWidth: 200px;
 $headerHeight: 60px;
+$quantityCardInLine: 4;
+$catalogColumnGap: 48px;
+$catalogContainerWidth:
+  ($catalogCardWidth * $quantityCardInLine) +
+  ($catalogColumnGap * ($quantityCardInLine - 1));
