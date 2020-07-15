@@ -13,10 +13,10 @@ html {
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 944px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 48px;
+  width: $catalogContainerWidth;
   margin: 0 auto;
 }
 

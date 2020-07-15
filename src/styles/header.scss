@@ -1,5 +1,6 @@
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   justify-content: space-between;
   height: $headerHeight;
   padding: 0 50px;
